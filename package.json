@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuhanaRaj/URL-Shortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuhanaRaj/URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/SuhanaRaj/URL-Shortener#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.4",
+    "nanoid": "^5.1.6",
+    "nodemon": "^3.1.11",
+    "short-id": "^0.1.0-1"
+  }
+}
